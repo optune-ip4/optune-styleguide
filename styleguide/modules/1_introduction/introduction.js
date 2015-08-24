@@ -1,0 +1,1 @@
+console.log('This are the styles used for the optunes booking plattform project.');

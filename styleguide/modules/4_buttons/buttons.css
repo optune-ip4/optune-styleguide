@@ -1,0 +1,31 @@
+@import url(../../assets/fonts/BookingPlattform/stylesheet.css);
+.button {
+    cursor: pointer;
+    text-decoration: none!important;
+    display: inline-block;
+    font-family: Brandon, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    -webkit-transition: background-color 0.3s, opacity 0.3s;
+    transition: background-color 0.3s, opacity 0.3s;
+    padding: 14px 16px;
+    line-height: 18px;
+    font-size: 18px
+}
+
+.button.load {
+    -webkit-transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) all;
+    transition: 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) all
+}
+
+.button.green {
+    border: 3px solid #27e200;
+    color: #27e200
+}
+
+.button:hover {
+    background-color: #27e200!important;
+    color: #fff
+}

@@ -1,0 +1,56 @@
+.bg-navy {
+    background-color: #0a1c3b
+}
+
+.bg-darkblue {
+    background-color: #002b98
+}
+
+.bg-blue {
+    background-color: #1c5bfd
+}
+
+.bg-green {
+    background-color: #27e200
+}
+
+.bg-grey {
+    background-color: #6a86b0
+}
+
+.bg-red {
+    background-color: #d9421b
+}
+
+.bg-white {
+    background-color: #fff
+}
+
+.bg-beige {
+    background-color: #eeece8
+}
+
+#colors li {
+    position: relative;
+    padding: 0;
+    margin-bottom: 0.9375em
+}
+
+#colors li p {
+    position: absolute;
+    padding: 3px 13px;
+    color: #666;
+    background-color: #fff;
+    font-size: 12px;
+    bottom: 0;
+    left: 0.9375em
+}
+
+#colors li .color {
+    height: 120px;
+    margin-right: 0.9375em
+}
+
+#colors li:last-child {
+    margin-right: 0
+}
