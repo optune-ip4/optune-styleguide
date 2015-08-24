@@ -1,0 +1,33 @@
+{
+    "id": "colors",
+    "name": "Colors",
+    "items": {
+        "intro": ["Colors for Booking-Plattform inherited from optunes CI: use 'navy' as text color and 'white' and 'beige' as background-color."],
+        "colors": [
+            {
+                "className": "bg-navy"
+            },
+            {
+                "className": "bg-darkblue"
+            },
+            {
+                "className": "bg-blue"
+            },
+            {
+                "className": "bg-green"
+            },
+            {
+                "className": "bg-grey"
+            },
+            {
+                "className": "bg-red"
+            },
+            {
+                "className": "bg-white"
+            },
+            {
+                "className": "bg-beige"
+            }
+        ]
+    }
+}

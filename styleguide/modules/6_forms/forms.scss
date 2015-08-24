@@ -1,0 +1,68 @@
+@import "../../assets/fonts/BookingPlattform/stylesheet.css";
+@import "vendor/foundation-form.scss";
+
+$grey: #6a86b0;
+$white: #ffffff;
+$green: #27e200;
+$navy: #0a1c3b;
+$blue: #1c5bfd;
+
+select {
+	width: 100%;
+}
+
+#forms {
+  fieldset {
+    margin-top: 0;
+  }
+
+  input[type="radio"],
+  input[type="checkbox"] {
+	margin-right: 10px;
+  }
+
+  input[type="text"], 
+  input[type="password"], 
+  input[type="date"],
+  input[type="datetime"],
+  input[type="datetime-local"],
+  input[type="month"],
+  input[type="week"],
+  input[type="email"],
+  input[type="number"],
+  input[type="search"],
+  input[type="tel"],
+  input[type="time"],
+  input[type="url"],
+  input[type="color"],
+  textarea,
+  select {
+	border-color: $green;
+	border-width: 2px 4px;
+	color: $navy;
+  }
+
+  input[type="text"]:focus, 
+  input[type="password"]:focus, 
+  input[type="date"]:focus,
+  input[type="datetime"]:focus,
+  input[type="datetime-local"]:focus,
+  input[type="month"]:focus,
+  input[type="week"]:focus,
+  input[type="email"]:focus,
+  input[type="number"]:focus,
+  input[type="search"]:focus,
+  input[type="tel"]:focus,
+  input[type="time"]:focus,
+  input[type="url"]:focus,
+  input[type="color"]:focus,
+  textarea:focus,
+  select:focus,
+  select:hover {
+  	border-color: $blue;
+  }
+
+  label {
+  	color: $navy;
+  }
+}

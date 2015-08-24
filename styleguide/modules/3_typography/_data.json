@@ -1,0 +1,51 @@
+{
+    "id": "typography",
+    "name": "Typography",
+    "hasScript": "yes",
+    "items" : {
+        "fonts": [
+            {
+                "heading": "1",
+                "fontName" : "Brandon",
+                "fontSize": "64px",
+                "className": "font-brandon",
+                "title": "Hello."
+            },
+            {
+                "heading": "1",
+                "fontName" : "Franz Sans",
+                "fontSize": "64px",
+                "className": "font-franz-sans",
+                "title": "Hello."
+            },
+            {
+                "heading": "2",
+                "fontName" : "Brandon",
+                "fontSize": "44px",
+                "className": "font-brandon",
+                "title": "Thursday"
+            },
+            {
+                "heading": "3",
+                "fontName" : "Brandon",
+                "fontSize": "38px",
+                "className": "font-brandon",
+                "title": "Born Hackers: Digital Kids Revisited."
+            },
+            {
+                "heading": "4",
+                "fontName" : "Brandon",
+                "fontSize": "18px",
+                "className": "font-brandon",
+                "title": "Born Hackers: Digital Kids Revisited."
+            }
+        ],
+        "paragraphsName": "Paragraphs",
+        "paragraphs": [
+            {
+                "className": "p1",
+                "text": "SEO is a marketing tactic that costs five percent of overall budget but brings in more than 20 percent of revenue for many Fortune 500 companies, and yet very few of them prioritize it. Instead, while slowly changing, too many CMOS still favor paid search, which costs 20 percent and brings in… 20 percent. In search, businesses need to shift priorities. Now."
+            }
+        ]
+    }
+}

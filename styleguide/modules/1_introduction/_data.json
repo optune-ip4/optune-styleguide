@@ -1,0 +1,8 @@
+{
+	"id": "introduction",
+	"name": "Introduction",
+	"scripts": ["introduction.js"],
+	"items" : [
+        "This are the styles that should be used for the opuntes booking plattform project."
+    ]
+}

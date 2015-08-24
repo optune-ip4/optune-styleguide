@@ -1,0 +1,42 @@
+@import "../../assets/fonts/BookingPlattform/stylesheet.css";
+
+$green: #27e200;
+
+ol, ul {
+	list-style: none;
+	margin: 0 0 2em 0;
+	padding: 0;
+}
+
+ul.list_huge {
+	li {
+		padding-left: 20px;
+		position: relative;
+
+		&::before {
+			content: '•';
+			font-size: 20px;
+			color: $green;
+			position: absolute;
+			left: 0;
+		}
+	}
+}
+
+ol.list_huge {
+	counter-reset: item;
+
+	li {
+		padding-left: 30px;
+		position: relative;
+
+		&::before {
+			content: counters(item,".") " ";
+			counter-increment: item;
+			top: 0;
+			color: $green;
+			position: absolute;
+			left: 0;
+		}
+	}
+}

@@ -1,0 +1,54 @@
+@import "../../assets/fonts/BookingPlattform/stylesheet.css";
+
+$green: #27e200;
+$beige: #eeece8;
+$navy: #0a1c3b;
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	empty-cells: show;
+	border: 2px solid $green;
+}
+table caption {
+	color: #000;
+	font: italic 85%/1 arial,sans-serif;
+	padding: 1em 0;
+	text-align: center;
+}
+table td,
+table th {
+	border-left: 2px solid $green;
+	border-width: 0 0 0 2px;
+	font-size: inherit;
+	margin: 0;
+	overflow: visible;
+	padding: .5em 1em;
+}
+table th {
+	font-family: 'HUGEAvantGardeBold', Helvetica, Arial, sans-serif;
+	font-weight: normal;
+	border-bottom: 2px solid $green;
+}
+table td:first-child,
+table th:first-child {
+	border-left-width: 0;
+}
+table thead {
+	background: $green;
+	color: $navy;
+	text-align: left;
+	vertical-align: bottom;
+}
+table tr:nth-child(2n-1) td {
+	background-color: $beige;
+}
+table td {
+	border-bottom: 2px solid $green;
+}
+
+#tables {
+  table {
+    width: 90%;
+  }
+}

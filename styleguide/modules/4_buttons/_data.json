@@ -1,0 +1,11 @@
+{
+	"id": "buttons",
+	"name": "Buttons",
+	"hasScript": "yes",
+	"items": [
+	    {
+	        "buttonName" : "Get Started",
+	        "className": "button green"
+	    }
+	]
+}
